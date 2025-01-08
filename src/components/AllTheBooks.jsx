@@ -14,11 +14,17 @@ class AllTheBooks extends Component {
       <Row>
         {booksArr.map((book, i) => {
           return (
-            <Col key={i} className='mb-4 d-flex justify-content-center'>
+            <Col
+              key={i}
+              xs={6}
+              lg={4}
+              xl={3}
+              className='mb-4 d-flex justify-content-center'
+            >
               <Card
                 key={book.asin}
                 className='position-relative'
-                style={{ width: '18rem' }}
+                style={{ width: '18rem', cursor: 'pointer' }}
               >
                 <Card.Img
                   variant='top'
