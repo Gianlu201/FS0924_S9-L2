@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 
 const MyFooter = function () {
   return (
-    <footer>
+    <footer className='pt-3'>
       <Container>
         <Row>
           <Col>
