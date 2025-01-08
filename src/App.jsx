@@ -1,5 +1,5 @@
 import MyNav from './components/MyNav';
-import Welcome from './components/Welcome';
+import MyMain from './components/MyMain';
 import MyFooter from './components/MyFooter';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <MyNav />
-      <Welcome />
+      <MyMain />
       <MyFooter />
     </>
   );
